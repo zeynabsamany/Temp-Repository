@@ -27,24 +27,36 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(144, 164);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(310, 48);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "zeinab samani";
+            // 
+            // Form08
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(622, 603);
+            this.Controls.Add(this.label1);
+            this.Location = new System.Drawing.Point(0, 0);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MinimumSize = new System.Drawing.Size(509, 248);
+            this.Name = "Form08";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
-			this.AutoScaleDimensions =
-				new System.Drawing.SizeF(7F, 13F);
-
-			this.AutoScaleMode =
-				System.Windows.Forms.AutoScaleMode.Font;
-
-			this.ClientSize =
-				new System.Drawing.Size(484, 461);
-
-			this.Location =
-				new System.Drawing.Point(0, 0);
-
-			this.Name = "Form08";
-
-			this.ResumeLayout(false);
 		}
-		#endregion /Windows Form Designer generated code
-	}
+        #endregion /Windows Form Designer generated code
+
+        private System.Windows.Forms.Label label1;
+    }
 }
